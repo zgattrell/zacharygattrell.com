@@ -1,29 +1,58 @@
 body{
-    background-image: url(/assets/img/bgimg.JPG); 
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-color: #727272;
+  font-family: Optima, Segoe, "Segoe UI"
 }
-.big-text{
-    font-size: 100px;
-    color: red;
-    animation: rotation 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+.overlay-text{
+  position: absolute;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+  color: white;
 }
-marquee{
-    font-size: 50px;
+.vl-right{
+  border-right: 1px solid white;
 }
-img{
-    animation: rotation 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+p{
+  color: white;
+}
+.bg-secondary{
+  background-color:#6A7987 !important;
+}
+.full-width{
+  width: 100%;
+}
 
+/* Style all font awesome icons */
+.fa {
+  margin: 30px;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
-@keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-  }
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-linkedin {
+  background: #212529;
+  color: white;
+}
+
+.fa-github {
+  background: #212529;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
