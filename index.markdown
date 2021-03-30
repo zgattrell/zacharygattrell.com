@@ -28,18 +28,28 @@ order: 1
   else if (window.attachEvent) window.attachEvent("onload", JavaBlink);
   else window.onload = JavaBlink;
 
+ function playAudio(){
+  const audio = document.querySelector("audio");
+  audio.volume = 0.2;
+  audio.play();
+  }
+
+
 </script>
 </head>
-<body>
+<body onclick="playAudio()">
     <div class="container py-5 text-center mx-auto">
-        <marquee class="blink-text" behavior="alternate"><img src="/assets/img/face.JPG" width="50px">ZACHAYR GATTRELL<img src="/assets/img/face.JPG" width="50px"></marquee>
-        <marquee class="blink-text" behavior="alternate" scrollamount="14" ><img src="/assets/img/face.JPG" width="50px">ZACHAYR GATTRELL<img src="/assets/img/face.JPG" width="50px"></marquee>
-        <marquee class="blink-text" behavior="alternate" scrollamount="12"><img src="/assets/img/face.JPG" width="50px">ZACHAYR GATTREL<img src="/assets/img/face.JPG" width="50px">L</marquee>
+        <marquee class="blink-text" behavior="alternate"><img src="/assets/img/face.JPG" width="70px">ZACHAYR GATTRELL<img src="/assets/img/face.JPG" width="70px"></marquee>
+        <marquee class="blink-text" behavior="alternate" scrollamount="14" ><img src="/assets/img/face.JPG" width="70px">ZACHAYR GATTRELL<img src="/assets/img/face.JPG" width="30px"></marquee>
+        <marquee class="blink-text" behavior="alternate" scrollamount="12"><img src="/assets/img/face.JPG" width="70px">ZACHAYR GATTREL<img src="/assets/img/face.JPG" width="70px">L</marquee>
         <h1 class="big-text blink-text">Zachary Gattrell</h1>
-        <marquee class="blink-text" behavior="alternate" scrollamount="4"><img src="/assets/img/face.JPG" width="50px">ZACHAYR GATTRELL<img src="/assets/img/face.JPG" width="50px"></marquee>
-        <marquee  class="blink-text" behavior="alternate" scrollamount="55"><img src="/assets/img/face.JPG" width="50px">ZACHAYR GATTRELL<img src="/assets/img/face.JPG" width="50px"></marquee>
-        <marquee class="blink-text" behavior="alternate" scrollamount="32"><img src="/assets/img/face.JPG" width="50px">ZACHAYR GATTRELL<img src="/assets/img/face.JPG" width="50px"></marquee>
+        <marquee class="blink-text" behavior="alternate" scrollamount="4"><img src="/assets/img/face.JPG" width="70px">ZACHAYR GATTRELL<img src="/assets/img/face.JPG" width="70px"></marquee>
+        <marquee  class="blink-text" behavior="alternate" scrollamount="55"><img src="/assets/img/face.JPG" width="50px">ZACHAYR GATTRELL<img src="/assets/img/face.JPG" width="70px"></marquee>
+        <marquee class="blink-text" behavior="alternate" scrollamount="32"><img src="/assets/img/face.JPG" width="70px">ZACHAYR GATTRELL<img src="/assets/img/face.JPG" width="70px"></marquee>
 
     </div>
+    <audio autoplay>
+      <source src="https://incompetech.com/music/royalty-free/mp3-royaltyfree/Death%20and%20Axes.mp3">
+    </audio>
 </body>
 </html>

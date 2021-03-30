@@ -6,7 +6,24 @@ body{
 .big-text{
     font-size: 100px;
     color: red;
+    animation: rotation 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 marquee{
     font-size: 50px;
 }
+img{
+    animation: rotation 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
