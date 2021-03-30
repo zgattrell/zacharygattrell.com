@@ -32,13 +32,13 @@ order: 1
 </head>
 <body>
     <div class="container py-5 text-center mx-auto">
-        <marquee class="randcolor" behavior="alternate">ZACHAYR GATTRELL</marquee>
-        <marquee behavior="alternate" scrollamount="14" >ZACHAYR GATTRELL</marquee>
-        <marquee behavior="alternate" scrollamount="12">ZACHAYR GATTRELL</marquee>
+        <marquee class="blink-text" behavior="alternate">ZACHAYR GATTRELL</marquee>
+        <marquee class="blink-text" behavior="alternate" scrollamount="14" >ZACHAYR GATTRELL</marquee>
+        <marquee class="blink-text" behavior="alternate" scrollamount="12">ZACHAYR GATTRELL</marquee>
         <h1 class="big-text blink-text">Zachary Gattrell</h1>
-        <marquee behavior="alternate" scrollamount="4">ZACHAYR GATTRELL</marquee>
-        <marquee behavior="alternate" scrollamount="55">ZACHAYR GATTRELL</marquee>
-        <marquee behavior="alternate" scrollamount="32">ZACHAYR GATTRELL</marquee>
+        <marquee class="blink-text" behavior="alternate" scrollamount="4">ZACHAYR GATTRELL</marquee>
+        <marquee  class="blink-text" behavior="alternate" scrollamount="55">ZACHAYR GATTRELL</marquee>
+        <marquee class="blink-text" behavior="alternate" scrollamount="32">ZACHAYR GATTRELL</marquee>
 
     </div>
 </body>
