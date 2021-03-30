@@ -1,0 +1,12 @@
+body{
+    background-image: url(/assets/img/bgimg.JPG); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.big-text{
+    font-size: 100px;
+    color: red;
+}
+marquee{
+    font-size: 50px;
+}
