@@ -69,7 +69,9 @@ order: 1
     </script>
   </div>
   <div class="container py-5 text-center">
-    <h2>WEB DEVELOPMENT | UX DESIGN | DATA ANALYTICS</h2>
+    <div class="typewriter">
+      <h2>WEB DEVELOPMENT | UX DESIGN | DATA ANALYTICS</h2>
+    </div>
     <br/>
     <p>I am a Junior Management Information Systems Student at the University of Alabama hoping to graduate in the Spring of 2023 with a Masters of Science in Management Information Systems. I have a passion for Front End Web Development, UX Design, and Data Analytics, specifically Natural Language Processing. </p>
   </div>
